@@ -1,8 +1,8 @@
-# Demo Fleet Tracker
+# demo-php-kafka
 
 ![Demo Fleet Tracker](docs/media/fleet-command.gif)
 
-This operations dashboard ingests live telemetry through Kafka, projects fleet state into Redis, and surfaces actionable alerts for a rental fleet. Vehicles are constrained to the Walvis Bay area to keep scope manageable. The interface also allows for the setting of restricted areas where the fleet is not allowed to operate, such as national parks. The zones carry severity levels (warning, critical) that influence the escalation of alerts when vehicles enter these areas.
+A fleet tracker operations dashboard that ingests live telemetry through Kafka, projects fleet state into Redis, and surfaces actionable alerts for rental vehicles. The interface also allows for the setting of restricted areas where the fleet is not allowed to operate, such as national parks. The zones carry severity levels (warning, critical) that influence the escalation of alerts when vehicles enter these areas.
 
 ## Screenshots
 
