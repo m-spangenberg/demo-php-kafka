@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "generatedAt": "2026-04-22T00:00:00Z",
+    "source": "bundled-walvis-swakop-corridor",
+    "country": "Namibia",
+    "highways": [
+      "trunk"
+    ],
+    "nodeCount": 11,
+    "edgeCount": 10
+  },
+  "nodes": {
+    "walvis_bay": { "lat": -22.9576, "lng": 14.5053 },
+    "lagoon_junction": { "lat": -22.9251, "lng": 14.5178 },
+    "dune_7": { "lat": -22.8911, "lng": 14.5338 },
+    "langstrand_south": { "lat": -22.8479, "lng": 14.5486 },
+    "langstrand": { "lat": -22.8176, "lng": 14.5554 },
+    "airport_turnoff": { "lat": -22.7815, "lng": 14.5638 },
+    "rossmund": { "lat": -22.7447, "lng": 14.5644 },
+    "swakop_river": { "lat": -22.7172, "lng": 14.5528 },
+    "mile_4": { "lat": -22.6984, "lng": 14.5396 },
+    "vineta": { "lat": -22.6848, "lng": 14.5312 },
+    "swakopmund": { "lat": -22.6784, "lng": 14.5266 }
+  },
+  "edges": [
+    ["walvis_bay", "lagoon_junction", 4.1],
+    ["lagoon_junction", "dune_7", 4.3],
+    ["dune_7", "langstrand_south", 4.8],
+    ["langstrand_south", "langstrand", 3.4],
+    ["langstrand", "airport_turnoff", 4.6],
+    ["airport_turnoff", "rossmund", 4.8],
+    ["rossmund", "swakop_river", 3.4],
+    ["swakop_river", "mile_4", 2.3],
+    ["mile_4", "vineta", 1.6],
+    ["vineta", "swakopmund", 0.8]
+  ]
+}

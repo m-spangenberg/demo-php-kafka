@@ -1,0 +1,11 @@
+{
+  "name": "demo/php-kafka-smart-fleet",
+  "description": "Smart Fleet Management demo with PHP, Kafka, Redis, and a real-time dashboard",
+  "type": "project",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
